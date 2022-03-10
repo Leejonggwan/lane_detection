@@ -20,7 +20,7 @@ class ObjectDetector:
         )
 
     def callback(self, _ls):
-        for distance in _ls.ranges[340:360]:
+        for distance in _ls.ranges[170:190]:
             if distance > 0 and distance < 0.9:
                 self.pub_flag.publish(False)
                 return

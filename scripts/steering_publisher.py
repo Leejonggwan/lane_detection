@@ -16,7 +16,7 @@ class LaneDetection:
     # birdeye points
     # upper_left, upper_right, lower_left, lower_right
     # pts1 = np.float32([[175, 240], [465, 240], [0, 380], [640, 380]])
-    upper_width = 150
+    upper_width = 120
     pts1 = np.float32([[320-upper_width, 300], [320+upper_width, 300], [0, 400], [640, 400]])
     pts2 = np.float32([[0, 0], [640, 0], [0, 480], [640, 480]])
     
